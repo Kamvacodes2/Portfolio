@@ -46,8 +46,8 @@ const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I am Kamva.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">5 months</span> of experience. I enjoy
+        <span className="font-bold">full-stack development bootcamp student </span> with{" "}
+        <span className="font-bold">8 months</span> of intensive training. I enjoy
         problem solving and building impactful{" "}
         <span className="italic">sites & apps</span>. My focuses include{" "}
         <span className="underline">React, Next.js, Java and SQL</span>.

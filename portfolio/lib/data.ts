@@ -3,8 +3,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import rmtdevImg from "@/public/weatherApp.png";
+import carplaceImg from "@/public/carplace.png";
 
 export const links = [
   {
@@ -43,46 +43,40 @@ export const experiencesData = [
     date: "2024 Feb - Present",
   },
   {
-    title: "Software Developer Intern",
-    location: "Johannesburg, Gauteng",
+    title: "Junior Accountant",
+    location: "Johannesburg, Guateng",
     description:
-      "A internship opportunity at Compu-Way enabling us an opportunity to build out a CRUD system for the Code College blogsite, an immersive experience where I was able to use front-end langauges such as Javascript, HTML5 and incorporating backend languages such as Nodejs and utilizing the MONGODb as the backend database. What I also really enjoyed implement was the authentication and authorization protocals to enable secure logging of users.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2024 Feb - June",
+      "Analyzed and processed financial transactions. Helped prepare financial management reports and communicated financial data with clients. Worked within a team to collaborate on large scale accounts with thousands of transactions on a monthly basis. ng as a freelancer.Actively liased with taxation officers to implement sound tax strategies for entities that secured tax refunds worth millions.",
+    date: "2021 - October 2022",
   },
   {
-    title: "Junior Accountant",
-    location: "Houston, TX",
+    title: "Freelance Teacher",
+    location: "Johannesburg, Guateng",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
+      "Primarily providing virtual lessons to students across the globe preparing lesson plans providing detailed feedback to further understanding and to foster progession.",
+    date: "2023 - Present",
+  }
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Car Market Place",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Online market place targeted at individual deals to sell their second hand cars to interested buyers.",
+    tags: ["React", "MongoDB", "Tailwind", "Firebase"],
+    imageUrl: carplaceImg,
+    link: "https://carmarketplace-vr34.vercel.app/"  // <-- Add the link here
   },
   {
-    title: "rmtDev",
+    title: "Weather Forecast",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Simple Weather Forecasting application",
+    tags: ["Javascript", "HTML", "CSS"],
     imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    link: "https://kamvacodes2.github.io/WeatherForecast/"
   },
 ] as const;
+
 
 export const skillsData = [
   "HTML",
