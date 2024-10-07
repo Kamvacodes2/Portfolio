@@ -1,7 +1,7 @@
 import React from "react";
 // import { CgWorkAlt } from "react-icons/cg";
 // import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+// import { LuGraduationCap } from "react-icons/lu";
 import rmtdevImg from "@/public/weatherApp.png";
 import carplaceImg from "@/public/carplace.png";
 
@@ -38,7 +38,6 @@ export const experiencesData = [
     location: "Johannesburg, Gauteng",
     description:
       "I'm currently a student at Code College. Through this 7 month journey. I have been able to learn about the cycle of building up software application ",
-    icon: React.createElement(LuGraduationCap),
     date: "2024 Feb - Present",
   },
   {
